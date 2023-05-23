@@ -17,7 +17,8 @@ for (let i = 0; i < img.length; i++) {
 
 slider.innerHTML = slider_cont;
 
-let slides = document.getElementsByClassName('.slide')
+let slides = document.getElementsByClassName('slide')
+console.log(slides)
 
 let active_element = 0
 slides[active_element].classList.add('active');
